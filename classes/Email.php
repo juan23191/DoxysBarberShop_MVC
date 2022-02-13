@@ -56,12 +56,12 @@ class Email {
         $mail->Host = 'smtp.mailtrap.io';
         $mail->SMTPAuth = true;
         $mail->Port = 2525;
-        $mail->Username = '4ec54dfb980a42';
-        $mail->Password = 'ae938c99960f22';
+        $phpmailer->Username = 'b8db5ef822ab8e';
+        $phpmailer->Password = '08e09b5f516c08';
     
-        $mail->setFrom('cuentas@appsalon.com');
-        $mail->addAddress('cuentas@appsalon.com', 'AppSalon.com');
-        $mail->Subject = 'Reestablece tu password';
+        $mail->setFrom('securityloguin@doxysbarbershop.com');
+        $mail->addAddress('securityloguin@doxysbarbershop.com', 'doxysbarbershop.com');
+        $mail->Subject = 'Confirma tu Cuenta';
 
         // Set HTML
         $mail->isHTML(TRUE);
